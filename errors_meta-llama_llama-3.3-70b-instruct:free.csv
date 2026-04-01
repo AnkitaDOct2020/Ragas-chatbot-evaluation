@@ -1,0 +1,4 @@
+model,question,error
+meta-llama/llama-3.3-70b-instruct:free,What is the capital of India?,"ERROR: Error code: 401 - {'error': {'message': 'Missing Authentication header', 'code': 401}}"
+meta-llama/llama-3.3-70b-instruct:free,Who wrote Hamlet?,"ERROR: Error code: 401 - {'error': {'message': 'Missing Authentication header', 'code': 401}}"
+meta-llama/llama-3.3-70b-instruct:free,What is the largest planet in our solar system?,"ERROR: Error code: 401 - {'error': {'message': 'Missing Authentication header', 'code': 401}}"

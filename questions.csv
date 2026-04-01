@@ -1,4 +1,4 @@
-question,expected_answer,context
-What is ChatGPT?,An AI chatbot developed by OpenAI,ChatGPT is an AI chatbot created by OpenAI.
-Who created Python?,Python was created by Guido van Rossum,Python was created by Guido van Rossum in 1991.
-What is Java?,Java is a programming language,Java is a high-level programming language.
+question,expected_answer
+What is the capital of India?,New Delhi
+Who wrote Hamlet?,William Shakespeare
+What is the largest planet in our solar system?,Jupiter

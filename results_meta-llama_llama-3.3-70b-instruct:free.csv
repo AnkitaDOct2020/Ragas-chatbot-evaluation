@@ -1,0 +1,4 @@
+model,question,expected,actual,result,response_time_seconds
+meta-llama/llama-3.3-70b-instruct:free,What is the capital of India?,New Delhi,"ERROR: Error code: 401 - {'error': {'message': 'Missing Authentication header', 'code': 401}}",FAIL,10.07
+meta-llama/llama-3.3-70b-instruct:free,Who wrote Hamlet?,William Shakespeare,"ERROR: Error code: 401 - {'error': {'message': 'Missing Authentication header', 'code': 401}}",FAIL,10.06
+meta-llama/llama-3.3-70b-instruct:free,What is the largest planet in our solar system?,Jupiter,"ERROR: Error code: 401 - {'error': {'message': 'Missing Authentication header', 'code': 401}}",FAIL,10.06

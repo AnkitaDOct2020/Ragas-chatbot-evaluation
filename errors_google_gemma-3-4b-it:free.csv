@@ -1,0 +1,4 @@
+model,question,error
+google/gemma-3-4b-it:free,What is the capital of India?,"ERROR: Error code: 401 - {'error': {'message': 'Missing Authentication header', 'code': 401}}"
+google/gemma-3-4b-it:free,Who wrote Hamlet?,"ERROR: Error code: 401 - {'error': {'message': 'Missing Authentication header', 'code': 401}}"
+google/gemma-3-4b-it:free,What is the largest planet in our solar system?,"ERROR: Error code: 401 - {'error': {'message': 'Missing Authentication header', 'code': 401}}"

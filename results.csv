@@ -1,0 +1,26 @@
+model,question,expected,actual,result,reason,response_time_seconds
+google/gemma-3-4b-it:free,What is the capital of India?,New Delhi,"The capital of India is **New Delhi**. 
+
+It's a separate city from Mumbai (Bombay), which is India's largest city and a major economic center. 😊",PASS,Answer matched expected value,2.49
+google/gemma-3-4b-it:free,Who wrote Hamlet?,William Shakespeare,"William Shakespeare wrote *Hamlet*. 
+
+It's widely considered his most famous and influential play, and scholars have extensively analyzed and confirmed its authorship based on its language, themes, and historical context. 
+
+Do you want to know more about *Hamlet*, such as:
+
+*   Its plot?
+*   Its themes?
+*   Its historical background?",PASS,Answer matched expected value,2.21
+google/gemma-3-4b-it:free,What is the largest planet in our solar system?,Jupiter,"The largest planet in our solar system is **Jupiter**. 
+
+It’s a gas giant and is so massive that all the other planets could fit inside it! 
+
+Here's a quick comparison:
+
+*   **Jupiter:** Diameter of about 140,000 kilometers (87,000 miles)
+*   **Saturn:** Diameter of about 120,000 kilometers (75,000 miles)
+
+Would you like to know more about Jupiter, or perhaps about other planets?",PASS,Answer matched expected value,2.63
+meta-llama/llama-3.3-70b-instruct:free,What is the capital of India?,New Delhi,"ERROR: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Venice', 'is_byok': False}}, 'user_id': 'user_3BiQjw1DBEJYSsWeAaVFP26ObHr'}",FAIL,"Expected 'New Delhi' but got 'ERROR: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Venice', 'is_byok': False}}, 'user_id': 'user_3BiQjw1DBEJYSsWeAaVFP26ObHr'}'",3.01
+meta-llama/llama-3.3-70b-instruct:free,Who wrote Hamlet?,William Shakespeare,"ERROR: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Venice', 'is_byok': False}}, 'user_id': 'user_3BiQjw1DBEJYSsWeAaVFP26ObHr'}",FAIL,"Expected 'William Shakespeare' but got 'ERROR: Error code: 429 - {'error': {'message': 'Provider returned error', 'code': 429, 'metadata': {'raw': 'meta-llama/llama-3.3-70b-instruct:free is temporarily rate-limited upstream. Please retry shortly, or add your own key to accumulate your rate limits: https://openrouter.ai/settings/integrations', 'provider_name': 'Venice', 'is_byok': False}}, 'user_id': 'user_3BiQjw1DBEJYSsWeAaVFP26ObHr'}'",3.1
+meta-llama/llama-3.3-70b-instruct:free,What is the largest planet in our solar system?,Jupiter,"ERROR: Error code: 429 - {'error': {'message': 'Rate limit exceeded: limit_rpm/meta-llama/llama-3.3-70b-instruct/839b2e30-a1b4-4974-b980-3e534b5873b1. High demand for meta-llama/llama-3.3-70b-instruct:free on OpenRouter - limited to 8 requests per minute. Please retry shortly.', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '8', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1775051400000'}, 'provider_name': None}}, 'user_id': 'user_3BiQjw1DBEJYSsWeAaVFP26ObHr'}",FAIL,"Expected 'Jupiter' but got 'ERROR: Error code: 429 - {'error': {'message': 'Rate limit exceeded: limit_rpm/meta-llama/llama-3.3-70b-instruct/839b2e30-a1b4-4974-b980-3e534b5873b1. High demand for meta-llama/llama-3.3-70b-instruct:free on OpenRouter - limited to 8 requests per minute. Please retry shortly.', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '8', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1775051400000'}, 'provider_name': None}}, 'user_id': 'user_3BiQjw1DBEJYSsWeAaVFP26ObHr'}'",2.76
